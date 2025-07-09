@@ -1,0 +1,51 @@
+/* src/components/home.css */
+
+.happy {
+  width: 100% !important;
+  min-height: 100vh !important;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff) !important;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.happy h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2a2aeb;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-spacer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-spacer:hover {
+  transform: scale(1.01);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 768px) {
+  .happy {
+    padding: 1rem;
+  }
+
+  .happy h1 {
+    font-size: 2.2rem;
+  }
+
+  .section-spacer {
+    padding: 1rem;
+    margin: 1.5rem auto;
+  }
+}

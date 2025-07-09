@@ -1,0 +1,61 @@
+.bingo-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.bingo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.bingo-cell {
+  background: #f0f0ff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s;
+}
+
+.bingo-cell:hover {
+  transform: scale(1.03);
+}
+
+.bingo-cell.completed {
+  background: #d1ffd6;
+  border: 2px solid #1dbf73;
+}
+
+.book img {
+  width: 60px;
+  height: auto;
+  margin-top: 5px;
+}
+
+.bingo-popup {
+  margin-top: 20px;
+  background: #f9ffcc;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.refresh-button {
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.refresh-button:hover {
+  background: navy;
+}

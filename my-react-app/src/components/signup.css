@@ -1,0 +1,151 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 🖼️ Full-screen wrapper with full-width background */
+/* 🔵 Signup Page Fullscreen Fix */
+.signup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* ✨ Signup Card Styling */
+.signup-card {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  max-width: 520px;
+  width: 100%;
+  z-index: 2;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🧾 Signup card */
+
+/* 🔷 Heading */
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* 🔷 Input label */
+label {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* 🔷 Input Fields */
+.form-control {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+/* 🔷 Focus effect */
+input:focus {
+  border-color: royalblue;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.2);
+}
+
+/* 🔷 Password eye icon */
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* 🔷 Checkbox label */
+.form-check-label a {
+  color: royalblue;
+  text-decoration: none;
+}
+.form-check-label a:hover {
+  text-decoration: underline;
+}
+
+/* 🔷 Submit Button */
+.btn-primary {
+  background-color: royalblue;
+  border-color: royalblue;
+  font-weight: 500;
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2b4fcf;
+  border-color: #2b4fcf;
+}
+
+/* 🔷 Sign In link */
+.btn-link {
+  font-weight: 500;
+  color: royalblue;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* 🔷 Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔷 Responsive tweaks */
+@media (max-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}

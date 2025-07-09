@@ -1,0 +1,15 @@
+.talks-redirect {
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.talks-redirect a {
+  color: #5865F2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.talks-redirect a:hover {
+  text-decoration: underline;
+}

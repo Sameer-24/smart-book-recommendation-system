@@ -1,0 +1,116 @@
+.login-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;              /* ✅ Full viewport width */
+  height: 100vh;             /* ✅ Full viewport height */
+  margin: 0;
+  padding: 0;
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* 🔷 Login Card Container */
+.login-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  animation: fadeInUp 0.6s ease;
+  z-index: 2;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔷 Headline */
+.login-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+/* 🔷 Inputs */
+.form-control {
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s ease;
+}
+
+input:focus {
+  border-color: #5d6eea;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(93, 110, 234, 0.25);
+}
+
+/* 🔷 Eye Icon */
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #555;
+  font-size: 1.25rem;
+  z-index: 2;
+}
+
+/* 🔷 Hide browser icons */
+input.custom-password::-ms-reveal,
+input.custom-password::-webkit-credentials-auto-fill-button,
+input.custom-password::-webkit-inner-spin-button,
+input.custom-password::-webkit-clear-button {
+  display: none !important;
+  appearance: none;
+}
+input.custom-password {
+  background-image: none !important;
+}
+
+/* 🔷 Submit Button */
+.btn-primary {
+  background-color: #5d6eea;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4a5ad1;
+}
+
+/* 🔷 Signup Button */
+.btn-outline-success {
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* 🔷 Error Alert */
+.alert-danger {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+}

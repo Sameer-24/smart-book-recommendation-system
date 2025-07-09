@@ -1,0 +1,114 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+/* Section Container */
+.top-authors-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #001f3f;
+
+  padding: 3rem 5vw;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left Side: Hall of Fame Text */
+.left-side {
+  flex: 1;
+  font-size: 10rem; /* Bigger font */
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Right Side: Author Grid */
+.right-side {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  justify-items: center;
+  align-items: center;
+}
+
+/* Author Image Styling */
+.author-img-wrapper {
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 3px solid white;
+}
+
+.author-img-wrapper:hover {
+  transform: scale(1.12);
+}
+
+.author-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Responsive Layouts */
+@media (max-width: 992px) {
+  .top-authors-section {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+
+  .left-side {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .authors-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .author-img-wrapper {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 576px) {
+  .left-side {
+    font-size: 2rem;
+  }
+
+  .authors-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+
+  .author-img-wrapper {
+    width: 90px;
+    height: 90px;
+  }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.custom-navbar {
+  background-color: royalblue;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* NAV LINKS */
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #e0e0e0;
+}
+
+.custom-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+}
+
+.brand-text {
+  font-size: 10px;
+  vertical-align: middle;
+}
+
+/* MEGA MENU */
+.mega-menu {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.mega-menu .col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.mega-menu a {
+  color: #333;
+  text-decoration: none;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+  font-size: 0.95rem;
+}
+
+.mega-menu a:hover {
+  color: #1a2e94;
+  font-weight: 500;
+}
+
+.mega-heading {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+/* PROFILE */
+.profile-icon {
+  font-size: 1rem;
+  border: 2px solid #fff;
+}
+
+.profile-dropdown a:hover {
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
+
+/* DROPDOWN MENU ITEMS */
+.dropdown-menu .dropdown-item {
+  color: #000 !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+/* ======= RESPONSIVE STYLES ======= */
+@media (max-width: 992px) {
+  .custom-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+
+  .mega-menu {
+    position: static;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .mega-menu .col {
+    margin-bottom: 1rem;
+  }
+
+  .custom-font {
+    font-size: 1.4rem;
+  }
+
+  .profile-icon {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-font {
+    font-size: 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    margin: 6px 0;
+  }
+
+  .mega-heading {
+    font-size: 0.9rem;
+  }
+
+  .mega-menu a {
+    font-size: 0.85rem;
+  }
+}

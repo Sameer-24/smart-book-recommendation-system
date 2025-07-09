@@ -1,0 +1,81 @@
+/* ReviewWall.css */
+
+.review-wall {
+  background-color: royalblue;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.review-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.review-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.review-form input {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  min-width: 180px;
+  font-size: 0.95rem;
+}
+
+.review-form button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: royalblue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-form button:hover {
+  background-color: #e0e0e0;
+}
+
+.review-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 100px;
+}
+
+.review-track {
+  display: inline-flex;
+  animation: scroll 30s linear infinite;
+  gap: 20px;
+}
+
+.review-box {
+  display: inline-block;
+  background-color: white;
+  color: royalblue;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  min-width: 220px;
+  text-align: left;
+}
+
+.review-author {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: #003366;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}

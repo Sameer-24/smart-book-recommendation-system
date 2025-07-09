@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What round is a classic AK-47 chambered in?",
+    "options": [
+      "7.62x51mm",
+      "5.56x45mm",
+      "5.45x39mm",
+      "7.62x39mm"
+    ],
+    "correct": "7.62x39mm"
+  },
+  {
+    "question": "What is the full first name of the babysitter in Calvin and Hobbes?",
+    "options": [
+      "Rose",
+      "Ruby",
+      "Rachel",
+      "Rosalyn"
+    ],
+    "correct": "Rosalyn"
+  },
+  {
+    "question": "What were the first two Pokémon games released?",
+    "options": [
+      "Red and Blue",
+      "Green and Blue",
+      "Red and Yellow",
+      "Red and Green"
+    ],
+    "correct": "Red and Green"
+  },
+  {
+    "question": "Which of the following is an album by punk rock band Anti-Flag?",
+    "options": [
+      "Infinity On High",
+      "21st Century Breakdown",
+      "No Pads, No Helmets...Just Balls",
+      "For Blood And Empire"
+    ],
+    "correct": "For Blood And Empire"
+  },
+  {
+    "question": "Which German field marshal was known as the `Desert Fox`?",
+    "options": [
+      "Ernst Busch",
+      "Wolfram Freiherr von Richthofen",
+      "Wilhelm List",
+      "Erwin Rommel"
+    ],
+    "correct": "Erwin Rommel"
+  }
+]
