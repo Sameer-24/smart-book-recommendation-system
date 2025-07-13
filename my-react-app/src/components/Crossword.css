@@ -1,37 +1,67 @@
 .crossword-container {
-  padding: 2rem;
-  max-width: 900px;
-  margin: 0 auto;
+  min-height: 100vh;
+  background: url('https://mcdn.wallpapersafari.com/medium/43/61/HQmpVJ.jpg') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(4px);
+  padding: 80px 20px 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
   text-align: center;
 }
 
 .crossword-title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #1e3a8a;
-  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  color: #1a237e;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.7);
 }
 
-.crossword-frame {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
-  border: 2px solid #1e3a8a;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.crossword-instructions {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 0 auto 40px auto;
+  padding: 25px 30px;
+  border-radius: 14px;
+  max-width: 720px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.crossword-instructions h3 {
+  margin-bottom: 12px;
+  color: #4a148c;
+}
+
+.crossword-instructions ol {
+  padding-left: 20px;
+}
+
+.crossword-instructions li {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
 .crossword-frame iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 92%;
+  height: 580px;
+  border: 2px solid #1976d2;
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  background-color: white;
 }
 
 .crossword-note {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: #555;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.crossword-note a {
+  color: #1a237e;
+  text-decoration: underline;
+}
+
+.loading-text {
+  font-style: italic;
+  font-size: 1.2rem;
 }

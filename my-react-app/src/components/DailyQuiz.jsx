@@ -68,7 +68,8 @@ function DailyQuiz() {
 
   return (
     <div className="quiz-container">
-      <h2>📘 Daily Book Quiz</h2>
+      <h2 style={{ marginTop: '40px' }}>📘 Daily Book Quiz</h2>
+
 
       {!submitted ? (
         <div className="question-box">

@@ -188,8 +188,9 @@ const BingoBoard = () => {
   if (!user) return <p>🔒 Please log in to play Book Bingo.</p>;
 
   return (
+    <div className="bingo-background">
     <div className="bingo-container">
-      <h2>📚 Book Bingo</h2>
+      <h2 style={{ marginTop: '40px' }}>📚 Book Bingo</h2>
 
       <button className="refresh-button" onClick={handleRefreshBoard}>
         🔁 Refresh Bingo Board
@@ -223,6 +224,7 @@ const BingoBoard = () => {
           <button onClick={handleShare}>Share</button>
         </div>
       )}
+    </div>
     </div>
   );
 };

@@ -1,52 +1,52 @@
 [
   {
-    "question": "What round is a classic AK-47 chambered in?",
+    "question": "The name of Junko Enoshima's imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
     "options": [
-      "7.62x51mm",
-      "5.56x45mm",
-      "5.45x39mm",
-      "7.62x39mm"
+      "Ryota Mitarai",
+      "Ultimate Imposter",
+      "Komaru Naegi",
+      "Mukuro Ikusaba"
     ],
-    "correct": "7.62x39mm"
+    "correct": "Mukuro Ikusaba"
   },
   {
-    "question": "What is the full first name of the babysitter in Calvin and Hobbes?",
+    "question": "The collapse of the Soviet Union took place in which year?",
     "options": [
-      "Rose",
-      "Ruby",
-      "Rachel",
-      "Rosalyn"
+      "1992",
+      "1891",
+      "1990",
+      "1991"
     ],
-    "correct": "Rosalyn"
+    "correct": "1991"
   },
   {
-    "question": "What were the first two Pokémon games released?",
+    "question": "What is the capital of South Korea?",
     "options": [
-      "Red and Blue",
-      "Green and Blue",
-      "Red and Yellow",
-      "Red and Green"
+      "Pyongyang",
+      "Taegu",
+      "Kitakyushu",
+      "Seoul"
     ],
-    "correct": "Red and Green"
+    "correct": "Seoul"
   },
   {
-    "question": "Which of the following is an album by punk rock band Anti-Flag?",
+    "question": "Which language is most widely spoken in Switzerland?",
     "options": [
-      "Infinity On High",
-      "21st Century Breakdown",
-      "No Pads, No Helmets...Just Balls",
-      "For Blood And Empire"
+      "French",
+      "Italian",
+      "Swiss",
+      "German"
     ],
-    "correct": "For Blood And Empire"
+    "correct": "German"
   },
   {
-    "question": "Which German field marshal was known as the `Desert Fox`?",
+    "question": "Which game was the Game of the Year in 2018?",
     "options": [
-      "Ernst Busch",
-      "Wolfram Freiherr von Richthofen",
-      "Wilhelm List",
-      "Erwin Rommel"
+      "Detroit: Become Human",
+      "Red Dead Redemption 2",
+      "A Way Out",
+      "God of War"
     ],
-    "correct": "Erwin Rommel"
+    "correct": "God of War"
   }
 ]
