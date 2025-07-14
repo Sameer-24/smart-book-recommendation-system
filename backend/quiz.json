@@ -1,52 +1,52 @@
 [
   {
-    "question": "The name of Junko Enoshima's imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
+    "question": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series \"PAW Patrol\"?",
     "options": [
-      "Ryota Mitarai",
-      "Ultimate Imposter",
-      "Komaru Naegi",
-      "Mukuro Ikusaba"
+      "Chicken",
+      "Steak",
+      "Caribou",
+      "Liver"
     ],
-    "correct": "Mukuro Ikusaba"
+    "correct": "Liver"
   },
   {
-    "question": "The collapse of the Soviet Union took place in which year?",
+    "question": "The Korean War started in what year?",
     "options": [
-      "1992",
-      "1891",
-      "1990",
-      "1991"
+      "1945",
+      "1960",
+      "1912",
+      "1950"
     ],
-    "correct": "1991"
+    "correct": "1950"
   },
   {
-    "question": "What is the capital of South Korea?",
+    "question": "Which nation hosted the FIFA World Cup in 2006?",
     "options": [
-      "Pyongyang",
-      "Taegu",
-      "Kitakyushu",
-      "Seoul"
+      "United Kingdom",
+      "Brazil",
+      "South Africa",
+      "Germany"
     ],
-    "correct": "Seoul"
+    "correct": "Germany"
   },
   {
-    "question": "Which language is most widely spoken in Switzerland?",
+    "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
     "options": [
-      "French",
-      "Italian",
-      "Swiss",
-      "German"
+      "Tottenham Hotspur",
+      "Watford",
+      "Stoke City",
+      "Leicester City"
     ],
-    "correct": "German"
+    "correct": "Leicester City"
   },
   {
-    "question": "Which game was the Game of the Year in 2018?",
+    "question": "Which of the following manga have the most tankouban volumes?",
     "options": [
-      "Detroit: Become Human",
-      "Red Dead Redemption 2",
-      "A Way Out",
-      "God of War"
+      "JoJo's Bizarre Adventure",
+      "Detective Conan",
+      "One Piece",
+      "Golgo 13"
     ],
-    "correct": "God of War"
+    "correct": "Golgo 13"
   }
 ]

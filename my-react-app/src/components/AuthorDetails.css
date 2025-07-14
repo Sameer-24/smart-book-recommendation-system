@@ -1,0 +1,110 @@
+.author-details-container {
+  min-height: 100vh;
+  padding: 40px;
+  background-image: url('https://images.unsplash.com/photo-1600907053338-26e5de6d3ccf?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.author-details-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+  background-color: #f0f0f0;
+}
+
+.author-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.author-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.author-info {
+  max-width: 700px;
+}
+
+.author-name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.author-bio {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.books-heading {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 40px 0 20px;
+  text-align: center;
+  color: #222;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  justify-content: center;
+}
+
+.book-card {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.book-cover {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.book-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}

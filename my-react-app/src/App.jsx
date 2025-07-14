@@ -16,6 +16,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import HomeRedirect from './components/HomeRedirect';
 import FactShelf from './components/FactShelf';
 import CommunityTalks from './components/CommunityTalks';
+import AuthorDetails from './components/AuthorDetails';
 
 import './App.css';
 
@@ -39,12 +40,15 @@ function App() {
         <Route path="/terms" element={<div className="container mt-4"><Terms /></div>} />
 
         {/* Other Full-Width Pages */}
+
         <Route path="/favorite-onboarding" element={<FavoriteOnboarding />} />
         <Route path="/crossword" element={<ProtectedRoute><Crossword /></ProtectedRoute>} />
         <Route path="/dailyquiz" element={<ProtectedRoute><DailyQuiz /></ProtectedRoute>} />
         <Route path="/book-bingo" element={<ProtectedRoute><BingoBoard /></ProtectedRoute>} />
         <Route path="/factshelf" element={<ProtectedRoute><FactShelf /></ProtectedRoute>} />
         <Route path="/community" element={<ProtectedRoute><CommunityTalks /></ProtectedRoute>} />
+        <Route path="/hall-of-fame/:authorSlug" element={<ProtectedRoute><AuthorDetails /></ProtectedRoute>} />
+
 
         {/* 404 */}
         <Route path="*" element={<h3 className="text-center mt-5">404 - Page Not Found</h3>} />

@@ -9,6 +9,7 @@ const axios = require('axios');
 const fs = require('fs');
 const he = require('he');
 const cookieParser = require('cookie-parser');
+const booksRoute = require('./routes/books');
 require('dotenv').config();
 
 const authRoutes = require('./routes/authRoutes');
@@ -72,6 +73,7 @@ io.on('connection', (socket) => {
 // ✅ Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/bingo', bingoRoutes);
+app.use('/api', booksRoute);
 
 
 // ✅ Article routes
