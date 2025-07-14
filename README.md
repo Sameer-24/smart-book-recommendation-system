@@ -49,17 +49,12 @@ An intelligent, full-stack book recommendation platform that delivers personaliz
 - **🔑 Forgot Password**  
   Secure password reset via email or OTP
 
-- **🧑‍💼 Display 10 Author Books**  
-  Show 10 relevant books when an author is clicked/viewed
-
 - **🔍 Search Functionality**  
   Search across titles, authors, and genres
 
 - **🧠 Improved Recommendations Logic**  
   Fine-tuned model to include browsing habits and community trends
 
-- **🎨 CSS Enhancements**  
-  Style and animation polish for the game area (LitPlay)
 
 ---
 
