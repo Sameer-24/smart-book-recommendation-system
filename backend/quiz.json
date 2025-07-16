@@ -1,52 +1,52 @@
 [
   {
-    "question": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series \"PAW Patrol\"?",
+    "question": "Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?",
     "options": [
-      "Chicken",
-      "Steak",
-      "Caribou",
-      "Liver"
+      "Taxi Driver",
+      "Delivery Driver",
+      "Getaway Driver",
+      "Racing Driver"
     ],
-    "correct": "Liver"
+    "correct": "Racing Driver"
   },
   {
-    "question": "The Korean War started in what year?",
+    "question": "The Electron computer was released in Britain during 1983 for the home computing market, by which company? ",
     "options": [
-      "1945",
-      "1960",
-      "1912",
-      "1950"
+      "Sinclair Research",
+      "Amstrad PLC",
+      "Commodore Business Machines",
+      "Acorn Computers"
     ],
-    "correct": "1950"
+    "correct": "Acorn Computers"
   },
   {
-    "question": "Which nation hosted the FIFA World Cup in 2006?",
+    "question": "Which of the following Mesopotamian mythological figures was NOT a deity?",
     "options": [
-      "United Kingdom",
-      "Brazil",
-      "South Africa",
-      "Germany"
+      "Enki",
+      "Enlil",
+      "Enkimdu",
+      "Enkidu"
     ],
-    "correct": "Germany"
+    "correct": "Enkidu"
   },
   {
-    "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+    "question": "Who voices the character \"Reigen\"  in the English dub of \"Mob Psycho 100\"?",
     "options": [
-      "Tottenham Hotspur",
-      "Watford",
-      "Stoke City",
-      "Leicester City"
+      "Max Mittelman",
+      "Kyle McCarley",
+      "Casey Mongillo",
+      "Chris Niosi"
     ],
-    "correct": "Leicester City"
+    "correct": "Chris Niosi"
   },
   {
-    "question": "Which of the following manga have the most tankouban volumes?",
+    "question": "The programming language 'Swift' was created to replace what other programming language?",
     "options": [
-      "JoJo's Bizarre Adventure",
-      "Detective Conan",
-      "One Piece",
-      "Golgo 13"
+      "C#",
+      "Ruby",
+      "C++",
+      "Objective-C"
     ],
-    "correct": "Golgo 13"
+    "correct": "Objective-C"
   }
 ]

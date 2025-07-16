@@ -211,7 +211,9 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link disabled text-light" aria-disabled="true">Top Picks</a>
+                <Link to="/top-picks" className="nav-link text-light">
+                Top Picks
+              </Link>
             </li>
           </ul>
 

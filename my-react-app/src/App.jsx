@@ -17,6 +17,7 @@ import HomeRedirect from './components/HomeRedirect';
 import FactShelf from './components/FactShelf';
 import CommunityTalks from './components/CommunityTalks';
 import AuthorDetails from './components/AuthorDetails';
+import TopPicksPage from './components/TopPicksSection';
 
 import './App.css';
 
@@ -48,6 +49,7 @@ function App() {
         <Route path="/factshelf" element={<ProtectedRoute><FactShelf /></ProtectedRoute>} />
         <Route path="/community" element={<ProtectedRoute><CommunityTalks /></ProtectedRoute>} />
         <Route path="/hall-of-fame/:authorSlug" element={<ProtectedRoute><AuthorDetails /></ProtectedRoute>} />
+        <Route path="/top-picks" element={<ProtectedRoute><TopPicksPage /></ProtectedRoute>} />
 
 
         {/* 404 */}
