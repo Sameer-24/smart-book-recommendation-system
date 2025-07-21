@@ -1,52 +1,52 @@
 [
   {
-    "question": "Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?",
+    "question": "What was the first Call of Duty game to include the Zombies gamemode?",
     "options": [
-      "Taxi Driver",
-      "Delivery Driver",
-      "Getaway Driver",
-      "Racing Driver"
+      "Call of Duty: Black Ops",
+      "Call of Duty: Modern Warfare 2",
+      "Call of Duty: Black Ops III",
+      "Call of Duty: World at War"
     ],
-    "correct": "Racing Driver"
+    "correct": "Call of Duty: World at War"
   },
   {
-    "question": "The Electron computer was released in Britain during 1983 for the home computing market, by which company? ",
+    "question": "Benny, Brain, Fancy-Fancy, Spook and Choo-Choo were known associates of what Hanna Barbera cartoon character?",
     "options": [
-      "Sinclair Research",
-      "Amstrad PLC",
-      "Commodore Business Machines",
-      "Acorn Computers"
+      "Yogi Bear",
+      "Snagglepuss",
+      "Scooby-Doo",
+      "Top Cat"
     ],
-    "correct": "Acorn Computers"
+    "correct": "Top Cat"
   },
   {
-    "question": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+    "question": "What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?",
     "options": [
-      "Enki",
-      "Enlil",
-      "Enkimdu",
-      "Enkidu"
+      "House",
+      "Drum and Bass",
+      "Dubstep",
+      "Trance"
     ],
-    "correct": "Enkidu"
+    "correct": "Trance"
   },
   {
-    "question": "Who voices the character \"Reigen\"  in the English dub of \"Mob Psycho 100\"?",
+    "question": "Which psychological term refers to the stress of holding contrasting beliefs?",
     "options": [
-      "Max Mittelman",
-      "Kyle McCarley",
-      "Casey Mongillo",
-      "Chris Niosi"
+      "Flip-Flop Syndrome",
+      "Split-Brain",
+      "Blind Sight",
+      "Cognitive Dissonance"
     ],
-    "correct": "Chris Niosi"
+    "correct": "Cognitive Dissonance"
   },
   {
-    "question": "The programming language 'Swift' was created to replace what other programming language?",
+    "question": "When was the Sega Genesis released in Japan?",
     "options": [
-      "C#",
-      "Ruby",
-      "C++",
-      "Objective-C"
+      "August 14, 1989",
+      "November 30, 1990",
+      "September 1, 1986",
+      "October 29, 1988"
     ],
-    "correct": "Objective-C"
+    "correct": "October 29, 1988"
   }
 ]

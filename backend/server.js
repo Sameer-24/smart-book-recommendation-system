@@ -11,6 +11,7 @@ const he = require('he');
 const cookieParser = require('cookie-parser');
 const booksRoute = require('./routes/books');
 const googleBooksRoute = require('./routes/googleBooks');
+const topPicksRoute = require('./routes/topPicks');
 require('dotenv').config();
 
 const authRoutes = require('./routes/authRoutes');
@@ -76,6 +77,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/bingo', bingoRoutes);
 app.use('/api', booksRoute);
 app.use('/api/google', googleBooksRoute);
+app.use('/api/google', topPicksRoute);
 
 
 
